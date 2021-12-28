@@ -1,0 +1,48 @@
+#container1{
+    height: 400px;
+    float: left;
+    width: 400px;
+}
+
+#container2{
+    height: 400px;
+    float: left;
+    width: 400px;
+}
+
+
+
+body{
+    transition: background 0.5s linear, color 0.5s linear;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+label{
+    background-color: black;
+    border-radius: 20px;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s linear;
+}
+
+body.dark label{
+    background-color: white;
+}
+
+input{
+    visibility: hidden;
+}
+
